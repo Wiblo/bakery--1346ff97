@@ -12,11 +12,11 @@ export interface CTAContent {
  * Update this to modify the CTA section shown on the homepage
  */
 export const ctaContent: CTAContent = {
-  title: 'Ready to Start Your Healing Journey?',
+  title: 'Order Your Fresh Baked Goods Today',
   description:
-    'Experience comprehensive chiropractic care tailored to your unique needs. Dr. Kamilah Jordaan is here to help you achieve optimal health and wellness.',
-  ctaText: 'Book Your Appointment',
-  ctaUrl: 'https://sticksandstoneswellnesshub.pencilmein.online/Booking',
-  backgroundImage: '/cta-background.jpeg',
-  backgroundImageAlt: 'Professional chiropractic treatment room',
+    'Pre-order your favorite breads, pastries, and custom cakes. We bake fresh every morning, so order ahead to guarantee your favorites are waiting for you.',
+  ctaText: 'Place an Order',
+  ctaUrl: 'https://goldengatebakery.com/order',
+  backgroundImage: 'https://images.unsplash.com/photo-1509440159596-0249088772ff?w=1600&q=80',
+  backgroundImageAlt: 'Fresh artisan bread in bakery display',
 }

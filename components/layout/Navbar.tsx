@@ -96,7 +96,7 @@ export function Navbar() {
               <span>{businessInfo.phone}</span>
             </a>
 
-            {/* Book Appointment CTA (desktop only) */}
+            {/* Order Online CTA (desktop only) */}
             {businessInfo.bookingUrl && (
               <div className="ml-2 hidden md:block">
                 <div className="flex items-center justify-end">
@@ -108,7 +108,7 @@ export function Navbar() {
                   >
                     <span className="pointer-events-none absolute inset-0 rounded-lg bg-black/10 opacity-0 transition-opacity group-hover:opacity-100 hover:rounded-xl"></span>
                     <span className="flex flex-1 items-center justify-center gap-x-2">
-                      Book Appointment
+                      Order Online
                       <span className="relative inline-block h-4 w-4">
                         <ChevronRight className="absolute left-0 top-0 h-4 w-4 transition-all duration-200 group-hover:translate-x-1 group-hover:opacity-0" />
                         <ArrowRight className="absolute left-0 top-0 h-4 w-4 -translate-x-1 opacity-0 transition-all duration-200 group-hover:translate-x-0 group-hover:opacity-100" />
@@ -151,7 +151,7 @@ export function Navbar() {
                   className="flex min-h-10 w-full items-center justify-center rounded-lg bg-primary px-3 py-2 font-medium text-primary-foreground hover:bg-primary-hover"
                   onClick={() => setMobileMenuOpen(false)}
                 >
-                  Book Appointment
+                  Order Online
                 </a>
               </li>
             )}

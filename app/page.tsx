@@ -5,18 +5,17 @@ import { FeaturesSection } from "@/components/sections/features/FeaturesSection"
 import { CTASection } from "@/components/sections/cta/CTASection"
 import { LocationSection } from "@/components/sections/location/LocationSection"
 import { FaqSection } from "@/components/sections/faq/FaqSection"
-import { businessInfo } from "@/lib/data/business-info"
 
 export default function Home() {
   return (
     <>
       <HeroWithImage
-        subtitle="Dr. Kamilah Jordaan"
-        title="Sports & Family Chiropractic Care"
-        backgroundImage="/dr-kamilah-professional-portrait.jpeg"
-        backgroundImageAlt="Dr. Kamilah Jordaan - Professional Chiropractor"
-        ctaText="Book Your Appointment"
-        ctaUrl={businessInfo.bookingUrl}
+        subtitle="San Francisco's Artisan Bakery Since 2010"
+        title="Fresh Baked Daily with Love"
+        backgroundImage="https://images.unsplash.com/photo-1509440159596-0249088772ff?w=1600&q=80"
+        backgroundImageAlt="Fresh artisan sourdough bread and pastries"
+        ctaText="View Our Menu"
+        ctaUrl="/treatments"
       />
       <FeaturedServices />
       <AboutSection />

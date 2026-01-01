@@ -17,7 +17,7 @@ export interface GalleryContent {
 export const galleryContent: GalleryContent = {
   title: 'Freshly Baked Daily',
   subtitle:
-    'From artisan sourdough to delicate French pastries, see what we're baking every day',
+    'From artisan sourdough to delicate French pastries, see what we\'re baking every day',
   items: [
     {
       id: 'gallery-1',
