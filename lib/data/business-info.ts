@@ -2,7 +2,7 @@ export const businessInfo = {
   // Core business details
   name: "Golden Gate Bakery",
   tagline: "Artisan baked goods fresh daily in San Francisco",
-  logo: "/logo.png",
+  logo: "/logo.svg",
 
   // Contact information
   phone: "(415) 555-BAKE",

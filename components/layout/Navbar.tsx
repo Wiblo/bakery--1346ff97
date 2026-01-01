@@ -46,7 +46,7 @@ export function Navbar() {
               >
                 <Image
                   src={businessInfo.logo}
-                  alt={`${businessInfo.name} - Professional Chiropractic`}
+                  alt={`${businessInfo.name} Logo`}
                   width={64}
                   height={64}
                   className="h-10 w-10 sm:h-16 sm:w-16 object-contain"
