@@ -17,11 +17,11 @@ export interface AboutFull {
  * Brief introduction with link to full about page
  */
 export const aboutPreview: AboutPreview = {
-  title: 'About Our Practice',
+  title: 'Our Story',
   description:
-    "Dr. Kamilah Jordaan is a dedicated chiropractor committed to helping people achieve a pain-free life through non-invasive healthcare. With a Master's degree in Chiropractic from the University of Johannesburg earned with distinction, she provides holistic, patient-centered care to individuals of all ages.",
-  image: '/dr-kamilah-professional-portrait.jpeg',
-  imageAlt: 'Dr. Kamilah Jordaan professional portrait',
+    "Golden Gate Bakery has been serving San Francisco's Mission District since 2010. What started as a small family bakery with a passion for traditional sourdough has grown into a beloved neighborhood staple, known for our artisan breads, French pastries, and custom celebration cakes.",
+  image: 'https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=800&q=80',
+  imageAlt: 'Inside Golden Gate Bakery with fresh bread displays',
 }
 
 /**
@@ -29,12 +29,13 @@ export const aboutPreview: AboutPreview = {
  * Comprehensive information about the practice
  */
 export const aboutFull: AboutFull = {
-  title: 'About Dr. Kamilah Jordaan',
+  title: 'About Golden Gate Bakery',
   paragraphs: [
-    "Dr. Kamilah Jordaan is a dedicated chiropractor committed to helping people achieve a pain-free life through non-invasive healthcare. With a Master's degree in Chiropractic from the University of Johannesburg earned with distinction, she provides holistic, patient-centered care to individuals of all ages.",
-    'Specializing in sports and family chiropractic care, Dr. Jordaan combines advanced techniques with a compassionate approach to address a wide range of conditions, from sports injuries to chronic pain management.',
-    'At Sticks and Stones Wellness Hub, every patient receives personalized attention and a customized treatment plan designed to support their unique healing journey and long-term wellness goals.',
+    "Golden Gate Bakery was founded in 2010 by the Martinez family, who brought their generations-old baking traditions from their hometown in France to the vibrant Mission District of San Francisco. What began with a single oven and a passion for authentic sourdough has blossomed into one of the city's most beloved artisan bakeries.",
+    "We believe that great bread starts with time, patience, and quality ingredients. Our signature sourdough is made using a wild yeast starter we've been maintaining since day one, and every loaf undergoes a 24-hour fermentation process. We wake up at 4am every morning to ensure you get the freshest croissants, pastries, and bread possible.",
+    "Beyond our daily baking, we've become known for our custom celebration cakes that have graced hundreds of San Francisco weddings, birthdays, and special occasions. Our talented pastry chefs work closely with each client to create something uniquely beautiful and delicious.",
+    'Today, Golden Gate Bakery is more than just a bakery - it's a gathering place for our community. Whether you're grabbing your morning croissant and coffee, picking up a fresh sourdough for dinner, or ordering a custom cake for a milestone celebration, we're honored to be part of your daily life and special moments.',
   ],
-  image: '/dr-kamilah-professional-portrait.jpeg',
-  imageAlt: 'Dr. Kamilah Jordaan professional portrait',
+  image: 'https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=800&q=80',
+  imageAlt: 'Inside Golden Gate Bakery with fresh bread displays',
 }

@@ -10,52 +10,52 @@ export interface FaqItem {
  */
 export const faqs: FaqItem[] = [
   {
-    id: 'first-visit',
-    question: 'What should I expect on my first visit?',
+    id: 'opening-hours',
+    question: 'What are your opening hours?',
     answer:
-      "Your initial consultation includes a thorough history taking and physical examination to determine if chiropractic care is suitable for you. We'll discuss your health goals and create a personalized treatment plan. The first visit typically lasts 45 minutes to ensure we understand your needs completely. Follow-up appointments are 30 minutes.",
+      "We're open Tuesday through Sunday. Our hours are Tuesday-Thursday 7am-6pm, Friday-Saturday 7am-7pm, and Sunday 7am-5pm. We're closed on Mondays. Early morning is the best time to get items fresh out of the oven!",
   },
   {
-    id: 'medical-aid',
-    question: 'Do you accept medical aid?',
+    id: 'custom-cakes',
+    question: 'How far in advance do I need to order a custom cake?',
     answer:
-      'Yes, we process medical aid claims on your behalf. We work with most major medical aids in South Africa. You settle your bill after your session and then we will submit the claim to your medical aid.',
+      'We recommend ordering custom cakes at least 3 days in advance to ensure we can accommodate your design and flavor preferences. For large wedding cakes or elaborate designs, 2-3 weeks notice is preferred. However, we can sometimes accommodate rush orders - just give us a call to check availability.',
   },
   {
-    id: 'painful',
-    question: 'Is chiropractic treatment painful?',
+    id: 'dietary-options',
+    question: 'Do you have gluten-free or vegan options?',
     answer:
-      "Chiropractic adjustments are generally not painful. You may feel slight pressure or hear a popping sound, but the treatment is designed to relieve pain, not cause it. We adapt techniques to each patient's comfort level and always communicate throughout the treatment to ensure you're comfortable.",
+      "Yes! We offer gluten-free bread and select pastries daily. We can also create custom vegan and gluten-free cakes with advance notice. Please note that while we take precautions, our kitchen is not a dedicated gluten-free facility. Let us know about any dietary restrictions when ordering.",
   },
   {
-    id: 'sessions',
-    question: 'How many sessions will I need?',
+    id: 'pre-orders',
+    question: 'Can I pre-order specific items?',
     answer:
-      "The number of sessions varies depending on your condition, its severity, and your health goals. After your initial assessment, we'll provide a treatment plan with an estimated timeline. Most patients see improvement within 2-4 sessions, though chronic conditions may require ongoing care.",
+      "Absolutely! We encourage pre-orders for our popular items like sourdough loaves, specific pastries, or dozens of cookies. Call us at (415) 555-BAKE or stop by the bakery to place your order. Pre-orders guarantee you won't miss out on your favorites.",
   },
   {
-    id: 'pregnancy',
-    question: 'Is chiropractic care safe during pregnancy?',
+    id: 'wholesale',
+    question: 'Do you supply to restaurants or cafes?',
     answer:
-      'Yes, chiropractic care is safe and beneficial during pregnancy. We use specialized techniques designed for pregnant women to help manage pain and ensure proper pelvic alignment for easier delivery. Many women find relief from pregnancy-related back pain through gentle chiropractic care.',
+      'Yes, we offer wholesale pricing for restaurants, cafes, and businesses. We can provide daily bread deliveries, breakfast pastries, or custom baked goods. Contact us at hello@goldengatebakery.com to discuss your needs and receive a wholesale price list.',
   },
   {
-    id: 'children',
-    question: 'Can children receive chiropractic treatment?',
+    id: 'gift-cards',
+    question: 'Do you sell gift cards?',
     answer:
-      'Absolutely! Children can benefit greatly from chiropractic care. We use gentle, age-appropriate techniques to address issues like colic, growing pains, sports injuries, and posture problems. Pediatric chiropractic care supports healthy development and can prevent future problems.',
+      'Yes! Gift cards are available in any amount and make perfect gifts for the bread and pastry lovers in your life. Purchase them in-store or contact us to arrange a gift card via email.',
   },
   {
-    id: 'appointment',
-    question: 'How do I book an appointment?',
+    id: 'parking',
+    question: 'Is there parking available?',
     answer:
-      'You can book an appointment through our online booking system at Sticks and Stones Wellness Hub, call us at 082 940 7129, or email kamilahjordaan@gmail.com. We offer flexible scheduling with appointments available 6 days a week to accommodate your busy lifestyle.',
+      "We're located on Valencia Street with street parking available nearby. There's also a public parking garage two blocks away on Mission Street. The bakery is easily accessible via BART (16th Street Mission station) and several Muni bus lines.",
   },
   {
-    id: 'what-to-wear',
-    question: 'What should I wear to my appointment?',
+    id: 'shelf-life',
+    question: 'How long do your baked goods stay fresh?',
     answer:
-      'Wear comfortable, loose-fitting clothing that allows for movement. Avoid wearing dresses or skirts if possible, as you may need to perform certain movements during the examination.',
+      'Our sourdough bread stays fresh for 3-5 days when stored in a paper bag at room temperature. Pastries are best enjoyed the day of purchase. Cookies keep well in an airtight container for up to a week. We recommend freezing bread if you want to keep it longer - it defrosts beautifully!',
   },
 ]
 
